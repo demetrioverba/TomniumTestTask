@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  height: 50px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 27px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.rates {
+  
+  flex: 50%;
+  background-color: burlywood;
+  border-bottom: 2px solid cadetblue;
+  color: cadetblue;
+  
+}
+.cost {
+  flex: 50%;
+  color: burlywood;
+  background-color: cadetblue;
+  border-bottom:2px solid burlywood;
+}
